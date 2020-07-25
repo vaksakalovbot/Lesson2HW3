@@ -13,10 +13,12 @@
 		D48925BE24CBF40C0085B477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48925BD24CBF40C0085B477 /* Assets.xcassets */; };
 		D48925C124CBF40C0085B477 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48925C024CBF40C0085B477 /* Preview Assets.xcassets */; };
 		D48925C424CBF40C0085B477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48925C224CBF40C0085B477 /* LaunchScreen.storyboard */; };
+		D48925CC24CBF47E0085B477 /* ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48925CB24CBF47E0085B477 /* ColorSlider.swift */; };
+		D48925CE24CC0E3D0085B477 /* ColorViewWithFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48925CD24CC0E3D0085B477 /* ColorViewWithFrame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D48925B424CBF40B0085B477 /* Lesson2HW1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson2HW1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48925B424CBF40B0085B477 /* Lesson2HW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson2HW3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48925B724CBF40B0085B477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D48925B924CBF40B0085B477 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D48925BB24CBF40B0085B477 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		D48925C024CBF40C0085B477 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D48925C324CBF40C0085B477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D48925C524CBF40C0085B477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48925CB24CBF47E0085B477 /* ColorSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSlider.swift; sourceTree = "<group>"; };
+		D48925CD24CC0E3D0085B477 /* ColorViewWithFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewWithFrame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +44,7 @@
 		D48925AB24CBF40B0085B477 = {
 			isa = PBXGroup;
 			children = (
-				D48925B624CBF40B0085B477 /* Lesson2HW1 */,
+				D48925B624CBF40B0085B477 /* Lesson2HW3 */,
 				D48925B524CBF40B0085B477 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,23 +52,25 @@
 		D48925B524CBF40B0085B477 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D48925B424CBF40B0085B477 /* Lesson2HW1.app */,
+				D48925B424CBF40B0085B477 /* Lesson2HW3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D48925B624CBF40B0085B477 /* Lesson2HW1 */ = {
+		D48925B624CBF40B0085B477 /* Lesson2HW3 */ = {
 			isa = PBXGroup;
 			children = (
 				D48925B724CBF40B0085B477 /* AppDelegate.swift */,
 				D48925B924CBF40B0085B477 /* SceneDelegate.swift */,
 				D48925BB24CBF40B0085B477 /* ContentView.swift */,
+				D48925CB24CBF47E0085B477 /* ColorSlider.swift */,
+				D48925CD24CC0E3D0085B477 /* ColorViewWithFrame.swift */,
 				D48925BD24CBF40C0085B477 /* Assets.xcassets */,
 				D48925C224CBF40C0085B477 /* LaunchScreen.storyboard */,
 				D48925C524CBF40C0085B477 /* Info.plist */,
 				D48925BF24CBF40C0085B477 /* Preview Content */,
 			);
-			path = Lesson2HW1;
+			path = Lesson2HW3;
 			sourceTree = "<group>";
 		};
 		D48925BF24CBF40C0085B477 /* Preview Content */ = {
@@ -78,9 +84,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D48925B324CBF40B0085B477 /* Lesson2HW1 */ = {
+		D48925B324CBF40B0085B477 /* Lesson2HW3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D48925C824CBF40C0085B477 /* Build configuration list for PBXNativeTarget "Lesson2HW1" */;
+			buildConfigurationList = D48925C824CBF40C0085B477 /* Build configuration list for PBXNativeTarget "Lesson2HW3" */;
 			buildPhases = (
 				D48925B024CBF40B0085B477 /* Sources */,
 				D48925B124CBF40B0085B477 /* Frameworks */,
@@ -90,9 +96,9 @@
 			);
 			dependencies = (
 			);
-			name = Lesson2HW1;
+			name = Lesson2HW3;
 			productName = Lesson2HW1;
-			productReference = D48925B424CBF40B0085B477 /* Lesson2HW1.app */;
+			productReference = D48925B424CBF40B0085B477 /* Lesson2HW3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D48925AF24CBF40B0085B477 /* Build configuration list for PBXProject "Lesson2HW1" */;
+			buildConfigurationList = D48925AF24CBF40B0085B477 /* Build configuration list for PBXProject "Lesson2HW3" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D48925B324CBF40B0085B477 /* Lesson2HW1 */,
+				D48925B324CBF40B0085B477 /* Lesson2HW3 */,
 			);
 		};
 /* End PBXProject section */
@@ -148,7 +154,9 @@
 			files = (
 				D48925B824CBF40B0085B477 /* AppDelegate.swift in Sources */,
 				D48925BA24CBF40B0085B477 /* SceneDelegate.swift in Sources */,
+				D48925CC24CBF47E0085B477 /* ColorSlider.swift in Sources */,
 				D48925BC24CBF40B0085B477 /* ContentView.swift in Sources */,
+				D48925CE24CC0E3D0085B477 /* ColorViewWithFrame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +331,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D48925AF24CBF40B0085B477 /* Build configuration list for PBXProject "Lesson2HW1" */ = {
+		D48925AF24CBF40B0085B477 /* Build configuration list for PBXProject "Lesson2HW3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D48925C624CBF40C0085B477 /* Debug */,
@@ -332,7 +340,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D48925C824CBF40C0085B477 /* Build configuration list for PBXNativeTarget "Lesson2HW1" */ = {
+		D48925C824CBF40C0085B477 /* Build configuration list for PBXNativeTarget "Lesson2HW3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D48925C924CBF40C0085B477 /* Debug */,
