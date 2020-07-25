@@ -15,13 +15,21 @@ struct ContentView: View {
 
     var body: some View {
         ZStack {
-            Color(UIColor(red: 10/255, green: 100/255, blue: 150/255, alpha: 1))
+            Color(UIColor(red: 10/255,
+                          green: 100/255,
+                          blue: 150/255,
+                          alpha: 1))
                .edgesIgnoringSafeArea(.all)
+            
             VStack {
-                ColorViewWithFrame(valueR: $valueR, valueG: $valueG, valueB: $valueB)
+                ColorViewWithFrame(valueR: $valueR,
+                                   valueG: $valueG,
+                                   valueB: $valueB)
+                
                 ColorSlider(value: $valueR, textColor: .red)
                 ColorSlider(value: $valueG, textColor: .green)
                 ColorSlider(value: $valueB, textColor: .blue)
+                
                 Spacer()
             }
         }
