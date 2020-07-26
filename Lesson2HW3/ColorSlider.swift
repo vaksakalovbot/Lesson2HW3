@@ -40,7 +40,7 @@ struct ColorSlider: View {
                 .multilineTextAlignment(.trailing)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .frame(width: 60, alignment: .trailing)
-                .keyboardType(.numbersAndPunctuation)
+                .keyboardType(.numberPad)
             
         }
         .padding(.horizontal)
